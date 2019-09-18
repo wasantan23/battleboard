@@ -36,4 +36,4 @@ names[3] = "Linus";
   
 
 Next up...
-[Instruction page](../Instructions.md)
+[Instruction page](../blob/master/Instructions.md)
