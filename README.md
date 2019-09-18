@@ -35,4 +35,5 @@ names[3] = "Linus";
   You will have to iterate through each of the elements and print separately - think for or adnvance for:each loop
   
 
-
+Next up...
+[Instruction page](../Instructions.md)
