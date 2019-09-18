@@ -8,9 +8,9 @@ For each student in the class, the may have multiple pieces of information assoc
 
 If we were to create a String variable for each student, i.e. String name1 = "Lucy"; etc - it might be a challenge to print the roster each time, by listing out each variable that corresponds to each student.  Perhaps there is a better way to store similar data without all the variables or 'buckets' of information.
 
-*Enter the Array*
+**Enter the Array*
 
-An array in java works like a list or other grouping of data that allows you to store groups of similar information, under one name, and reference each *element* using an index.
+An array in java works like a list or other grouping of data that allows you to store groups of similar information, under one name, and reference each **element** using an index.
 
 Arrays are identified by the square brackets following the name of the array, and must be typed.
 For example:  an array may up of Strings may be *DECLARED* as follows:
@@ -21,4 +21,6 @@ However - Java demands that an array must be also initialized with a capacity wh
 
 String[ ] names = new String[ 30 ];
 
-where
+where *names* is the name of the Array of Strings, and it has 30 places.  **Note that we cannot add more spaces to the array after initialization, so plan ahead.  Yes - we can talk about form and design later, but for now - ok to think about planning ahead and adding a few more than needed.**
+
+
