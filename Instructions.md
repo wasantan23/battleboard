@@ -1,4 +1,4 @@
-#instructions
+# instructions
 
 OK - so what to do now?
   Well - you should practice manipulating an array, for hours of fun.  Use ints, strings, doubles, etc.
