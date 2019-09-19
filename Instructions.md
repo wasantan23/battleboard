@@ -16,6 +16,6 @@
   Think of a table in HTML - building a row of cells, then adding another row of cells, etc.  If you apply the same concept, 
   you can create the same idea with two sets of square brackets.  
   
-  **int[][] numbers = new int[8][8]; 
+  **int[][] numbers = new int[8][8];**
   
   Where we have created a table with 8 rows of 8 columns.  **(Notice my description there, 8 rows OF 8 columns)**
