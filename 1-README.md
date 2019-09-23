@@ -28,7 +28,7 @@ Use the index - by setting a value into the index.
 names[3] = "Linus";
 
 **What about multiples?**
-  names[] = {"charlie", "lucy" , "pigpen"];
+  names[] = {"charlie", "lucy" , "pigpen"};
 
 **Can I print an array?**
   No. Printing an array will print the location or memory index - NOT the values.
