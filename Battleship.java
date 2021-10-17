@@ -7,8 +7,12 @@ public class Battleship { //class for the lower board of the battle ship
 	
 	int [] [] board = new int [10] [10]; // makes an array - 10 rows, 10 colums 
 
-	Scanner shipPosition = new Scanner(System.in); //creating instance of a scanner class which will call on the constructor
-
+	Scanner shipPosition = new Scanner(System.in); //creating instance of a scanner class called shipPosition which will call on the constructor
+	
+	boolean playAgain = true; //creating a boolean regarding on wheather the user would like to play again
+	
+	while (playAgain) { //a while loops that runs the code when the user wants to plau
+	
 System.out.println ("Hello user! You are going to be playing the game battleship. In this game, you will be playing against the computer."); //lines 12 - 19 are set of instructions for the game
 System.out.println("This is a war themed game, where the computer will have to try and guess the location of your ship, and attempt to sink it."); 
 System.out.println("You will start off by receiving 3 ships. Each ship has holes where the computer can hit. The lengths of the three ships will be 2, 3 and 4 units long.");
@@ -32,10 +36,16 @@ System.out.println( " [1a,2a,3a,4a,5a,6a,7a,8a,9a,10a] \n [1b,2b,3b,4b,5b,6b,7b,
 	System.out.println ("For the four unit ship, what do you choose as your end position?");
 		String shipFourEnd = shipPosition.nextLine(); 
 
-} // closes main method
+} // closes while loop
 	
+} // closes the main method
+
 } // closes the class
 	
+
+
+
+
 
 
 
