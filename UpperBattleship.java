@@ -6,7 +6,7 @@ public class UpperBattleship { //upper board of battleship
 		
 		int[][] board = new int [10][10]; //dimensions of board... 10 x 10
 		
-		Scanner positionStrike = new Scanner(System.in); //creating instance of scanner class called 'keyboard'
+		Scanner positionStrike = new Scanner(System.in); //creating instance of scanner class called 'positionStrike'. this will call on the constructor.
 		
 		boolean playAgain = true; //introducing a boolean. Whether or not the player would like to play again. Automatically true.
 		
