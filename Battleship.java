@@ -21,10 +21,15 @@ System.out.println("Each ship must be placed horizontally or vertically across g
 System.out.println("In addition to that, your ships can't overlap.");
 System.out.println("Players will take turns firing shots to atttempt to hit your opponents ships. The computer's hits and misses will be tracked on this lower board.");
 System.out.println("This is the display of the board");
-System.out.println( " [1a,2a,3a,4a,5a,6a,7a,8a,9a,10a] \n [1b,2b,3b,4b,5b,6b,7b,8b,9b,10b] \n [1c,2c,3c,4c,5c,6c,7c,8c,9c,10c] \n [1d,2d,3d,4d,5d,6d,7d,8d,9d,10d] \n [1e,2e,3e,4e,5e,6e,7e,8e,9e,10e] \n [1f,2f,3f,4f,5f,6f,7f,8f,9f,10f] \n [1g,2g,3g,4g,5g,6g,7g,8g,9g,10g] \n [1h,2h,3h,4h,5h,6h,7h,8h,9h,10h] \n [1i,2i,3i,4i,5i,6i,7i,8i,9i,10i] \n [1j,2j,3j,4j,5j,6j,7j,8j,9j,10j] \n"); //display of the board	
+System.out.println ( " [A1,A2,A3,A4,A5,A6,A7,A8,A9,A10] \n [B1,B2,B3,B4,B5,B6,B7,B8,B9,B10] \n [C1,C2,C3,C4,C5,C6,C7,C8,C9,C10] \n [D1,D2,D3,D4,D5,D6,D7,D8,D9,D10] \n [E1,E2,E3,E4,E5,E6,E7,E8,E9,E10] \n [F1,F2,F3,F4,F5,F6,F7,F8,F9,F10] \n [G1,G2,G3,G4,G5,G6,G7,G8,G9,G10] \n [H1,H2,H3,H4,H5,H6,H7,H8,H9,H10] \n [I1,I2,I3,I4,I5,I6,I7,I8,I9,I10] \n [J1,J2,J3,J4,J5,J6,J7,J8,J9,J10} \n");
 	
 	System.out.println("For the two unit ship, what do you choose as your start position? (Ex. 1a) "); // lines 22 - 25 is asking the user for the selected start and end position of the 2 unit ship
 		String shipTwoStart = shipPosition.nextLine(); 
+		String shipTwo = shipTwoStart.substring(0,1);
+		// switch (shipTwo) {
+		//	case 'a';
+			
+		
 	System.out.println("For the two unit ship, what do you choose as your end position?");
 		String shipTwoEnd = shipPosition.nextLine(); 
 	System.out.println("For the three unit ship, what do you choose as your start position? (Ex. 1a)"); //lines 26 - 29 is asking the user for the selected start and end position of the 3 unit ship
@@ -35,37 +40,17 @@ System.out.println( " [1a,2a,3a,4a,5a,6a,7a,8a,9a,10a] \n [1b,2b,3b,4b,5b,6b,7b,
 		String shipFourStart = shipPosition.nextLine(); 
 	System.out.println ("For the four unit ship, what do you choose as your end position?");
 		String shipFourEnd = shipPosition.nextLine(); 
-
+	
+	
+	
+//}
+	
 } // closes while loop
 	
 } // closes the main method
 
 } // closes the class
-	
 
 
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-	
-	
-	
-
-
-
-
-	
-	
 
 
