@@ -25,32 +25,96 @@ System.out.println ( " [A1,A2,A3,A4,A5,A6,A7,A8,A9,A10] \n [B1,B2,B3,B4,B5,B6,B7
 	
 	System.out.println("For the two unit ship, what do you choose as your start position? (Ex. 1a) "); // lines 22 - 25 is asking the user for the selected start and end position of the 2 unit ship
 		String shipTwoStart = shipPosition.nextLine(); 
-		String shipTwo = shipTwoStart.substring(0,1);
-		// switch (shipTwo) {
-		//	case 'a';
-			
-		
+		String shipTwoStartRow = shipTwoStart.substring(0,1);
 	System.out.println("For the two unit ship, what do you choose as your end position?");
 		String shipTwoEnd = shipPosition.nextLine(); 
+		String shipTwoEndRow = shipTwoEnd.substring(0,1);
 	System.out.println("For the three unit ship, what do you choose as your start position? (Ex. 1a)"); //lines 26 - 29 is asking the user for the selected start and end position of the 3 unit ship
 		String shipThreeStart = shipPosition.nextLine(); 
+		String shipThreeStartRow = shipThreeStart.substring(0,1);
 	System.out.println("For the three unit ship, what do you choose as your end position?");
 		String shipThreeEnd = shipPosition.nextLine(); 
+		String shipThreeEndRow = shipThreeEnd.substring(0,1);
 	System.out.println ("For the four unit ship, what do you choose as your start position? (Ex. 1a) "); //lines 30 - 33 is asking user for the selected start and end position of the 4 unit ship
 		String shipFourStart = shipPosition.nextLine(); 
+		String shipFourStartRow = shipFourStart.substring(0,1);
 	System.out.println ("For the four unit ship, what do you choose as your end position?");
 		String shipFourEnd = shipPosition.nextLine(); 
+		String shipFourEndRow = shipFourEnd.substring(0,1);
 	
 	
 	
-//}
+	
+	switch (shipTwoStartRow) (shipTwoEndRow) (shipThreeStartRow) (shipThreeEndRow) (shipFourStartRow) (shipFourEndRow) {
+		
+		case 'A':
+		case 'a':
+		row = 0;
+		break;
+		 
+		
+		case 'B':
+		case 'b':
+		row = 1;
+		break;
+		
+			
+		case 'C':
+		case 'c':
+		row = 2;
+		break;
+		
+			
+		case 'D':
+		case 'd':
+		row = 3;
+		break;
+		
+			
+		case 'E':
+		case 'e':
+		row = 4;
+		break;
+		
+			
+		case 'F':
+		case 'f':
+		row = 5;
+		break;
+		
+			
+		case 'G':
+		case 'g':
+		row = 6;
+		break;
+		
+			
+		case 'H':
+		case 'h':
+		row = 7;
+		break;
+		
+			
+		case 'I':
+		case 'i':
+		row = 8;
+		break;
+		
+			
+		case 'J':
+		case 'j':
+		row = 9;
+		break;
+		
+		
+	
+}
 	
 } // closes while loop
 	
 } // closes the main method
 
 } // closes the class
-
 
 
 
