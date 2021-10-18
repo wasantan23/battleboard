@@ -17,14 +17,18 @@ public class UpperBattleship { //upper board of battleship
 		System.out.println ("It will mark your hits and misses and notify you when you sink their ship. ");
 		System.out.println ("They have 3 ships of different lengths. These lengths are 2, 3, and 4 units. "); //introducing componenets of upper board to player.
 		System.out.println ("Printed below is the board. You will use this to express your guesses. \n");
-		System.out.println ( " [1a,2a,3a,4a,5a,6a,7a,8a,9a,10a] \n [1b,2b,3b,4b,5b,6b,7b,8b,9b,10b] \n [1c,2c,3c,4c,5c,6c,7c,8c,9c,10c] \n [1d,2d,3d,4d,5d,6d,7d,8d,9d,10d] \n [1e,2e,3e,4e,5e,6e,7e,8e,9e,10e] \n [1f,2f,3f,4f,5f,6f,7f,8f,9f,10f] \n [1g,2g,3g,4g,5g,6g,7g,8g,9g,10g] \n [1h,2h,3h,4h,5h,6h,7h,8h,9h,10h] \n [1i,2i,3i,4i,5i,6i,7i,8i,9i,10i] \n [1j,2j,3j,4j,5j,6j,7j,8j,9j,10j] \n"); //borrowed from Tanisha's code (with her permission). prints out the board for the user's reference.
-		
+		System.out.println ( " [A1,A2,A3,A4,A5,A6,A7,A8,A9,A10] \n [B1,B2,B3,B4,B5,B6,B7,B8,B9,B10] \n [C1,C2,C3,C4,C5,C6,C7,C8,C9,C10] \n [D1,D2,D3,D4,D5,D6,D7,D8,D9,D10] \n [E1,E2,E3,E4,E5,E6,E7,E8,E9,E10] \n [F1,F2,F3,F4,F5,F6,F7,F8,F9,F10] \n [G1,G2,G3,G4,G5,G6,G7,G8,G9,G10] \n [H1,H2,H3,H4,H5,H6,H7,H8,H9,H10] \n [I1,I2,I3,I4,I5,I6,I7,I8,I9,I10] \n [J1,J2,J3,J4,J5,J6,J7,J8,J9,J10} \n");
 		System.out.println ("/n At what position would you like to strike first? "); //asking use question. user input.
 		String strike = positionStrike.nextLine(); //scanning to convey user reponse to the computer.
+		char firstLetter = strike.charAt(0); // gets the first char from the user input... ex: a,b,c...
+		int row;
 		
+		//switch (firstLetter) {
+			
 
 
 
 } //closes while playAgain
 } //closes static void main 
 } //closes class batttleship
+
