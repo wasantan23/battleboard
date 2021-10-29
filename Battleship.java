@@ -1,8 +1,10 @@
 //Tanisha Wasan
 import java.util.Scanner; //importing scanner class
-public class Main { //class for the lower board of the battle ship
-	int row;
+public class Battleship { //class for the lower board of the battle ship
+	int row; // declaring a variable
 	public static void main (String [] args) {
+	
+	UpperBattleship myShip = new UpperBattleship(); //conneting my board to Suhani's board
 	
 	int [] [] board = new int [10] [10]; // makes an array - 10 rows, 10 colums 
 	Scanner shipPosition = new Scanner(System.in); //creating instance of a scanner class called shipPosition which will call on the constructor
@@ -66,7 +68,7 @@ System.out.println ( " [A1,A2,A3,A4,A5,A6,A7,A8,A9,A10] \n [B1,B2,B3,B4,B5,B6,B7
  	System.out.println("For the three unit ship, what do you choose as your end position?");
  		String shipThreeEnd = shipPosition.nextLine(); 
  		String shipThreeEndRow = shipThreeEnd.substring(0,1);
- 		 if (shipTwoStartRow.equals("A") || shipTwoEndRow.equals("A") )  { //lines 69- 97 is checking which row hte second ship is on 
+ 		 if (shipTwoStartRow.equals("A") || shipTwoEndRow.equals("A") )  { //lines 69- 97 is checking which row the second ship is on 
 			int row = 1;
 	}
 		else if (shipThreeStartRow.equals("B")|| shipThreeEndRow.equals("B") )  {
@@ -194,7 +196,23 @@ System.out.println ( " [A1,A2,A3,A4,A5,A6,A7,A8,A9,A10] \n [B1,B2,B3,B4,B5,B6,B7
 		case 'i':
 		row = 8;
 		break;
+		
+		
+		case 'J':
+		case 'j':
+		row = 9;
+		break;
+			
+			
 		*/
+
+
+
+
+
+
+
+
 
 
 
